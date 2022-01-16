@@ -198,7 +198,7 @@
                                     <p class="mb-4">
                                         AMAZEing is a physics based maze game. The player uses the rotation of the two inner boxes to control the movement of the marble, navigating to each of the gems and then finally the finish flag. <br>
                                         <br>
-                                        The player is able to choose the map size, the gem amout and generate new mazes acordingly.<br>
+                                        The player is able to choose the map size, the gem amount and generate new mazes acordingly.<br>
                                         <br>
                                     </p>                       
                                     <img class="img-fluid rounded mb-5" src="assets/portfolio/AMAZEingGIF.gif" alt="..."/>
@@ -209,9 +209,14 @@
                                         <br>
                                     </p>
 
-                                    <h3> My Role</h3>
+                                    <h3>Complications/solutions:</h3>
                                     <p>
-                                    Apart from learning how to use the Unity game engine I was also tasked with: <br>
+                                        <h4>Maze Generation:</h4><b>We were in need of a maze where every part has to be reachable. we ended up using a Depth-first-search algorithm more maze generation. if we had more time we would of looked into creating a more complex algorithm.</b><br><br>
+                                        <h4>Moving skybox:</h4><b>To add to the atomosphere of the space-y skyboxes we felt like the skybox should rotate around the game. We ended up doing this by using camera stacking, not rendereing the background on the main camera looking at the maze, and adding a secondary camera with a soul purpose to rotate and render only the background.</b><br><br>    
+                                    </p>
+
+                                    <h3> My Role</h3>
+                                    <p>Apart from learning how to use the Unity game engine I was also tasked with: <br>
                                     <b>Maze Generation:</b> Using an algorithm to generate mazes based on set dimensions.<br>
                                     <b>Connecting Sounds, Animations, Lighting:</b> Connecting and making sure everything all working.<br>
                                     <b>Script Cohesion & Game Logic:</b> Ensuring all the scripts that were created are working together and creating the overall game loop.<br>
@@ -276,16 +281,24 @@
                                         <br>
                                     </p>
 
+                                    <h3>Complications/solutions:</h3>
+                                    <p>
+                                        <h4>Boat Boyancy:</h4><b>We wanted to replicate the boyancy bouncing and torque that a water craft would have. Initially we had four spring-like forces one for each corner of the boat, but due to other problems that arose from that ended up with using one central spring just to keep it boyant. </b><br><br>
+                                        <h4>Boat Teleporter/Seemless gameplay loop:</h4><b>Aiming for a seemless, fully interactable gameplay loop we decided to use portals in order to transfer the vehicle from a limbo (Menu) state to river (in game) state. Some of the troubles that arose were maintaining the same angle when entering and exiting the portal, overall creating these portals challenged our understanding of matrix and vector math.
+                                        <h4>Boat Aerial:</h4><b>Initally we were ambitious in wanting the player to have almost complete aerial control of the boat, but due too time constraints and the controls not being newcomer friendly we decided to use impulse rotations where the player would press a series of buttons and peform a set rotation. </b><br><br>
+                                        <h4>Scrolling Leaderboard:</h4><b>We almost made a scrolling leaderboard from scratch, whilst most of the functionality was there (scrolling, and loading apropriate date) when people wanted to add a tick box inorder to chose what ghosts they verse Unity had some problems when changing tickbox values via code and we had to resort to using Unitys Scroll View object.</b><br><br>                                            
+                                    </p>
+
                                     <h3> My Role</h3>
                                     <p>
-                                    <b>UI Design and Navigation:</b> The design of the multiple UIs ensuring that it was functional.<br>
-                                    <b>Score saving & ghost replays:</b> Saving the needed information to locall files such as scores and player replays, also making sure the replays are being recorded, saved and loaded properly.<br>
-                                    <b>Script Cohesion & Game Logic:</b> Ensuring all the scripts that were created are working together and creating the overall game loop.<br>
-                                    <b>Music and Sound FX:</b> Thinking of and implementing all the sounds in the game making sure to play each sound when needed.<br>
-                                    <b>Leaderboard:</b> Spent a decent amount of time creating the leaderboard for the game with all it's functionality.<br>
-                                    <b>Tiny aditions:</b> Thinking of and implementing a bunch of tiny aditions such as a moving skybox and a minimap (not in final build)<br>
-                                    <b>Managing GitHub:</b>Managing all pull and push requests from the team throughout majority of the project<br>
-                                    <br>
+                                        <b>UI Design and Navigation:</b> The design of the multiple UIs ensuring that it was functional.<br>
+                                        <b>Score saving & ghost replays:</b> Saving the needed information to locall files such as scores and player replays, also making sure the replays are being recorded, saved and loaded properly.<br>
+                                        <b>Script Cohesion & Game Logic:</b> Ensuring all the scripts that were created are working together and creating the overall game loop.<br>
+                                        <b>Music and Sound FX:</b> Thinking of and implementing all the sounds in the game making sure to play each sound when needed.<br>
+                                        <b>Leaderboard:</b> Spent a decent amount of time creating the leaderboard for the game with all it's functionality.<br>
+                                        <b>Tiny aditions:</b> Thinking of and implementing a bunch of tiny aditions such as a moving skybox and a minimap (not in final build)<br>
+                                        <b>Managing GitHub:</b>Managing all pull and push requests from the team throughout majority of the project<br>
+                                        <br>
                                     </p>
 
                                     <img class="img-fluid rounded" src="assets/portfolio/QuickStyxHorizontal.PNG">
@@ -328,14 +341,14 @@
                                             <b>Language:</b> Java Script<br>
                                             <b>Duration:</b> 2 Weeks<br>
                                             <b>Context:</b> During the semester break I decided to learn how to create my own discord bot.<br>
-                                            I used VS code to write the code and Node.js to handle recieving and responding to commands. 
+                                            I used VS code to write the code and Node.js to handle recieving and responding to commands ended up making something to show all the timezones in AUS/NZ and some other more trivial commands. 
                                         <br><br></p>
 
                                         <h3>Website</h3>
                                         <p>
                                         <b>Languages:</b> HTML 5, Java script, CSS<br>
-                                        <b>Duration:</b> 4 Weeks<br>
-                                        <b>Context:</b> After completing year 1 of studies I decided I needed to create a portfolio also why not spend this time learning how to create a website and learn some different languages.
+                                        <b>Duration:</b> 2 weeks <br>
+                                        <b>Context:</b> After completing year 1 of studies I decided to learn some web dev, decided to start with using a template for a portfolio website and learn more about creating my own website, in the end ended up picking up the syntax and how to do some basic structuring and manipulation using JavaScript and CSS. 
                                         <br><br></p>
                                     </div>
                                 </div>
